@@ -88,6 +88,21 @@ button {background: transparent;border: 0;font-size: 16px;text-transform: capita
 
 html,body{height: 100%;}
 
+.whatsapp-float {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 80px; /* Adjust the distance from the right edge */
+    z-index: 100;
+}
+
+.whatsapp-float img {
+    width: 60px; /* Adjust the size */
+    height: 60px; /* Adjust the size */
+    border: none;
+    display: block;
+}
+
 [placeholder]:focus::-webkit-input-placeholder {
   -webkit-transition: opacity 0.3s 0.3s ease; 
   -moz-transition: opacity 0.3s 0.3s ease; 
